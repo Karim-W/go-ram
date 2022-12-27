@@ -17,7 +17,6 @@ var InsultsList = Insults{
 	`There is enough garlic in here to kill every vampire in Europe.`,
 	`Why did the chicken cross the road? Because you did not fucking cook it!`,
 	`You put so much ginger in this, it is a Weasley.`,
-	`The problem with Yanks is they are wimps.`,
 	`Do not just stand there like a big fucking muffin`,
 	`Stop taking things personally.`,
 	`I wouldn't trust you running a bath let alone a restaurant.`,
@@ -44,4 +43,16 @@ var InsultsList = Insults{
 	`Hey. Hey, you. Hey. Come here. Let me whisper something very important in your ear. Very important: FUCK OFF.`,
 	`I wish you’d jump in the oven. That would make my life a whole lot easier.`,
 	`Salmonella is not an ingridient.`,
+}
+
+// mix of gordon ramasy insults and inspired Insults
+var EnduserInspiredInsults = Insults{
+	"What are you? an idiot end-user",
+	`I wouldn't trust you running a bath let alone using my app.`,
+	`Hey, panini head, are you even listening to me?`,
+	`Get your shit together!`,
+	`I've never, ever, ever, ever, ever met someone I believe in as little as you.`,
+	`I wish you’d jump in the oven. That would make my life a whole lot easier.`,
+	`Just, just just - what do you want, a fucking medal?`,
+	`Fuck off`,
 }
