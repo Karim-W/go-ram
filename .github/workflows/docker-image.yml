@@ -31,5 +31,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: prod
-          labels: ${{ steps.meta.outputs.labels }}
+          tags: censoree/go-ram:prod
