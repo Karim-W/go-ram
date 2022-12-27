@@ -4,12 +4,12 @@ RUN apk update && apk add git
 
 WORKDIR /
 COPY . .
-RUN go mod tidy
-RUN go build -o /app /main.go
+
+RUN go build -o /app .
 
 FROM alpine:latest
-WORKDIR /home
+WORKDIR /
 COPY --from=0 /app /app
 
 EXPOSE 8080
-CMD ["./app"]
+CMD ["/app"]
