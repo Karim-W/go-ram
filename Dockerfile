@@ -4,7 +4,7 @@ RUN apk update && apk add git
 
 WORKDIR /
 COPY . .
-RUN go get -v ./...
+RUN go mod tidy
 RUN go build -o /app /main.go
 
 FROM alpine:latest
